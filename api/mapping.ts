@@ -1121,15 +1121,15 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
     },
   },
   {
-    name: 'onespace',
-    displayName: 'ONESPACE NFT STAKING',
+    name: 'spaceman',
+    displayName: 'SPACEMAN NFT STAKING',
     stakePoolAddress: new PublicKey(
-      'FBTqpPynmDdVsYP4eep6pJonwMsFoVhaXcCpah3yYLZY'
+      'AYtjirk6EJMSXNwkbteoGqu8hZbbGkzw3hUvmfHALkP3'
     ),
     websiteUrl: 'https://1space.me/',
     receiptType: ReceiptType.Original,
     tokenStandard: TokenStandard.NonFungible,
-    hostname: 'stake.1space.me',
+    hostname: 'spaceman-stake.1space.me',
     hideFooter: true,
     imageUrl: 'https://1space.me/images/logo-new-main-heroes_02.png',
     maxStaked: 700,
@@ -1177,8 +1177,10 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
       accent: '#2b3645',
       fontColor: '#FFFFFF',
     },
+
     backgroundImage:
     'https://i.ibb.co/KzLDpfX/Home-background.png',
+
   },
   {
     name: 'onespace-1sp',
